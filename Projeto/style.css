@@ -6,9 +6,50 @@
 }
 main{
     display: flex;
-    flex-direction: row;
-    gap:50px;
 }
-#Criptografar{
-    
+header{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.criptografar{
+    border: 2px solid black;
+    position: absolute;
+    width: 800px;
+    height: 80vh;
+    display: flex;
+    left: 200px; 
+}
+.descriptografar{
+    position: absolute;
+    left: 70%;
+    border: 2px solid black;
+    width: 400px;
+    height: 84vh;
+}
+.text_input{
+    width: 34rem;
+    top: 8rem;
+    left: 7.1rem;
+    word-wrap: break-word;
+}
+.btn_div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left:12%;
+    top: 700px;
+}
+.btn_criptografar, .btn_descriptografar{
+    width: 280px;
+    height: 65px;
+    margin: 0.5rem;
+}
+footer{
+    border: 2px solid black;
+
 }
